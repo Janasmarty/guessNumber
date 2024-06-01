@@ -9,7 +9,7 @@ function checkGuess() {
   }
   else if (guessedNumber < randomNumber) {
     gameResult.textContent = "Too Low! Try Again.";
-    gameResult.style.backgroundColor = "#1e217c";
+    gameResult.style.backgroundColor = "red";
   }
   else if (guessedNumber === randomNumber) {
     gameResult.textContent = "Congratulations! You got it right.";
